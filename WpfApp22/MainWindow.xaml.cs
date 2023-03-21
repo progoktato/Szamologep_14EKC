@@ -86,7 +86,6 @@ namespace WpfApp22
 
 
 
-            // throw new NotImplementedException();              
             //Kivált egy kivételt--->  jelzi, hogy a metódus még nem készült el.
 
         }
@@ -123,7 +122,6 @@ namespace WpfApp22
                     MuveletHozzafuzese(muvelet);
 
                 }
-
             }
         }
         private void btnSzoroz_Click(object sender, RoutedEventArgs e)
@@ -136,7 +134,6 @@ namespace WpfApp22
                 lblEredmeny.Content = eredmeny;
                 string muvelet = $"{a} * {b} = {eredmeny}";
                 MuveletHozzafuzese(muvelet);
-
             }
         }
 
